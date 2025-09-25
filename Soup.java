@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Soup {
     //these are instance variables 
     private String letters;
@@ -29,13 +32,18 @@ public class Soup {
 
     //adds a word to the pool of letters known as "letters"
     public void add(String word){
+ letters += word;
 
     }
 
 
     //Use Math.random() to get a random character from the letters string and return it.
     public char randomLetter(){
+      char a ;
+       a=  letters.charAt((int)Math.random() * letters.length());
+    
         return 'a';
+    
     }
 
 
