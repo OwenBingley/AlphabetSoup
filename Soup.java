@@ -39,8 +39,8 @@ public class Soup {
 
     //Use Math.random() to get a random character from the letters string and return it.
     public char randomLetter(){
-      char a ;
-       a=  letters.charAt((int)Math.random() * letters.length());
+      Char a;
+        a = letters.charAt((int)Math.random() * letters.length());
     
         return 'a';
     
